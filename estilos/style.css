@@ -43,6 +43,8 @@ section#telefone {
 section#redes-sociais{
     text-align: right ;
     
+    transform: translate(-1%, 20%);
+    
 
 }
 section#redes-sociais img:hover{
@@ -66,4 +68,20 @@ iframe#tela {
     width: 267px;
     height: 471px;
 
+}
+footer{
+    margin: 0px;
+    text-align: center;
+    color: white;
+    background: url(../imagens/fundo-madeira.jpg) no-repeat ;
+    background-size: cover;
+    position: relative;
+
+}
+a{
+    color: white;
+    text-decoration: none;
+}
+a:hover{
+    color: red;
 }
